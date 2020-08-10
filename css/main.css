@@ -460,13 +460,34 @@
 
 	#info .info_items .item {
 		margin-bottom: 30px;
+		height: 220px;
+	}
+
+	#info .info_items .item .icon {
+		margin-bottom: 20px;
+	}
+
+	#info .info_items .item h3 {
+		margin-bottom: 15px;
+	}
+
+	#farms .farms_sl {
+		margin-bottom: 0;
 	}
 }
 
 @media only screen and (max-width: 375px) {
 	#news .news_items .item h4 {
 		max-width: 270px;
+	}
+
+	#info .info_items .item {
+		width: 340px;
 	}	
+
+	#farms {
+		display: none;
+	}
 }
 
 

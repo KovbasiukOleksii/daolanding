@@ -59,7 +59,7 @@ $('.farms_sl').slick({
       }
     },
     {
-      breakpoint: 414,
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1,
