@@ -1,0 +1,277 @@
+footer {
+	background: #333A4A;
+	padding: 30px 0;
+}
+
+footer .footer_flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .footer_flex .contact {
+	flex: 1;
+}
+
+footer .footer_flex .clock {
+	flex: 1.2;
+}
+
+footer .footer_flex .contact .logo_white {
+	display: inline-block;
+}
+
+footer .footer_flex .contact .logo_white img {
+	width: 220px;
+}
+
+footer .footer_flex .contact .social_footer {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	float: right;
+}
+
+footer .footer_flex .contact .social_footer a {
+	margin-left: 20px;
+	position: relative;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .btc_f {
+	fill: #F8B513;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .telega_f {
+	fill: #2BA0DA;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .face_f {
+	fill: #1774EB;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .insta_f {
+	fill: #ED503F;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .appstore_f {
+	fill: #227BEA;
+}
+
+footer .footer_flex .contact .social_footer a:hover > svg .android_f {
+	fill: #90C400;
+}
+
+footer .footer_flex .contact .social_footer a .dscr {
+	position: absolute;
+	left: -25px;
+	top: -35px;
+	background: #949494;
+	color: #fff;
+	width: 70px;
+	text-align: center;
+	border-radius: 5px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	display: none;
+}
+
+footer .footer_flex .contact .social_footer a .gp {
+	width: 90px;
+	left: -35px;
+}
+
+footer .footer_flex .contact .social_footer a:hover > .dscr {
+	display: block;
+}
+
+footer .footer_flex .contact .contact_info {
+	margin-top: 25px;
+}
+
+footer .footer_flex .contact .contact_info .mail .icon_cf {
+	display: inline-block;
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -58px -4px;
+}
+
+footer .footer_flex .contact .contact_info .mail a {
+	color: #fff;
+	position: relative;
+	top: -5px;
+	font-size: 14px;
+}
+
+footer .footer_flex .contact .contact_info .call {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+footer .footer_flex .contact .contact_info .call .call_item .skype .icon_cf {
+	display: inline-block;
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -39px -4px;
+}
+
+footer .footer_flex .contact .contact_info .call .call_item .skype {
+	margin-bottom: 10px;
+}
+
+footer .footer_flex .contact .contact_info .call .call_item .skype a {
+	color: #fff;
+	position: relative;
+	top: -5px;
+	font-size: 14px;
+}
+
+
+footer .footer_flex .contact .contact_info .call .call_item .skype .viber {
+    background-position: -20px -4px;
+}
+
+footer .footer_flex .contact .contact_info .call .call_item .skype .whatapp {
+    background-position: -1px -4px;
+}
+
+footer .footer_flex .contact .contact_info .call .call_item .skype .telega {
+	background-position: -113px -4px;
+}
+
+footer .footer_flex .clock {
+	margin-left: 141px;
+}
+
+footer .footer_flex .clock .clock_items .item  {
+	text-align: center;
+	display: inline-block;
+	margin-left: 27px;
+	width: 85px;
+}
+
+
+footer .footer_flex .clock .clock_items .item .my_loc {
+	color: #2F80ED;
+	font-size: 14px;
+}
+
+footer .footer_flex .clock .clock_items .item p {
+	color: #fff;
+	font-size: 14px;
+}
+
+footer .footer_flex .clock .policy {
+	display: flex;
+	align-items: flex-end;
+	height: 65%;
+}
+
+footer .footer_flex .clock .policy ul {
+	list-style: none;
+	width: 100%;
+	
+}
+
+footer .footer_flex .clock .policy ul li {
+	display: inline-block;
+	float: right;
+	margin-left: 48px;
+}
+
+footer .footer_flex .clock .policy ul li a {
+	font-size: 11px;
+	color: #8B93A6;
+}
+
+
+
+/* адаптация */
+
+
+@media only screen and (max-width: 1250px) {
+    footer .footer_flex .clock {
+    	margin-left: 100px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    footer .footer_flex .clock {
+    	margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    footer .footer_flex {
+    	flex-flow: column;
+    }
+
+    footer .footer_flex .clock {
+    	margin-left: 0;
+    	text-align: center;
+    }
+
+    footer .footer_flex .clock .policy {
+    	margin-top: 10px;
+    }
+
+    footer .footer_flex .clock .policy ul li {
+    	text-align: center;
+    	float: none;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+	footer .footer_flex .contact .logo_white img {
+    	width: 130px;
+    }
+
+    footer .footer_flex .contact .social_footer {
+    	top: 0;
+    }
+
+    footer .footer_flex .clock .clock_items {
+    	display: none;
+    }
+
+    footer .footer_flex .clock .policy ul li {
+    	margin-left: 5px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+	footer .footer_flex .contact .social_footer a {
+		margin-left: 10px;
+	}
+
+	footer .footer_flex .contact .contact_info .mail {
+		margin-left: 10px;
+	}
+
+	footer .footer_flex .contact .contact_info .call {
+		flex-flow: column;
+		margin-left: 10px;
+	}
+
+	footer .footer_flex .contact {
+    	flex-flow: column;
+    	display: flex
+    }
+
+    footer .footer_flex .contact .social_footer {
+    	top: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+	#news .news_items .item h4 {
+   		max-width: 240px;
+	}
+}
+
+
+
+

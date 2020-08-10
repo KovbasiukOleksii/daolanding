@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Daoflowers</title>
+	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/settings.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<!-- голова -> строка контактов, строка меню -->
+	<header>
+		<!-- строка контактов, языка и авторизации -->
+		<div class="header_contact">
+			<div class="container">
+				<div class="header_contact_items">
+					<!-- блок контактов -->
+					<div class="item">
+						<div class="icon_viber"></div>
+						<a href="viber://chat?number=+31657713385">
+							+31657713385
+						</a>
+						<a href="viber://chat?number=+31654268152">
+							+31654268152
+						</a>
+						<div class="icon_skype"></div>
+						<a href="skype:dao-dao?chat">
+							dao-dao
+						</a>
+						<div class="icon_skype"></div>
+						<a href="skype:daoflowers_boris?chat">
+							daoflowers_boris
+						</a>
+						<div class="icon_mail"></div>
+						<a href="mailto:dao@daoflowers.com">
+							dao@daoflowers.com
+						</a>
+						<div class="icon_begin"></div>
+						<a href="#">
+							Начать сотрудничество
+						</a>
+					</div>
+					<!-- блок языка и авторизации -->
+					<div class="item">
+						<div class="lang">
+							<a href="#"> <img class="lang_ico" src="img/icon/ru.png" alt="ru"> Ru <img src="img/icon/dropdown.png" alt="ru"></a>
+							<ul>
+								<li><a href="#"><img src="img/icon/en.png" alt="en"><span>En</span></a></li>
+								<li><a href="#"><img src="img/icon/esp.png" alt="esp"><span>Esp</span></a></li>
+							</ul>
+						</div>
+						<div class="login_btn">
+							<div class="icon_login"></div>
+							<a class="login" href="#">Авторизация</a>
+						</div>
+						<!-- модальное окно, авторизация -->
+						<div class="modal_login">
+							<div class="form_login">
+								<span class="close"></span>
+								<h5>Авторизация</h5>
+								<form action="">
+									<div class="logpass">
+										<input type="text" name="Login" placeholder="Login"
+ required />
+										<input type="password" placeholder="Password" name="password" required />
+										<a href="#">Забыли пароль ?</a>
+										<button>Войти</button>
+										<a href="#">Начать сотрудничество</a>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- строка лого и меню -->
+		<div class="header_menu">
+			<div class="container">
+				<div class="header_menu_items">
+					<!-- бургер меню -->
+					<div class="bgm">
+						<a class="bgm_btn" href="#">
+							<span class="bgm_lines"></span>
+						</a>
+						<nav class="bgm_nav">
+							<a class="bgm_links" href="#">Каталог цветов</a>
+							<a class="bgm_links" href="#">плантации</a>
+							<a class="bgm_links" href="#">сервисы</a>
+							<a class="bgm_links" href="#">faq</a>
+							<a class="bgm_links" href="#">новости</a>
+							<a class="bgm_links" href="#">о компании</a>
+							<a class="bgm_links" href="#">контакты</a>
+							<div class="bgm_lang">
+								<a href="#"><img src="img/icon/ru.png" alt="ru">Ru</a>
+								<a href="#"><img src="img/icon/en.png" alt="en">En</a>
+								<a href="#"><img src="img/icon/esp.png" alt="esp">Esp</a>
+							</div>
+						</nav>
+						<div class="bgm_overlay"></div>
+					</div>
+					<!-- бургер меню конец -->
+					<div class="logo">
+						<a href="index.html">
+							<img src="img/logo.png" alt="logo">
+						</a>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a href="#">Каталог цветов</a></li>
+							<li><a href="#">плантации</a></li>
+							<li><a href="#">сервисы</a></li>
+							<li><a href="#">faq</a></li>
+							<li><a href="#">новости</a></li>
+							<li><a href="#">о компании</a></li>
+							<li><a href="#">контакты</a></li>
+						</ul>
+					</div>
+					<div class="header_search">
+						<form action="" autocomplete="off">
+							<input id="search" name="search" type="text" placeholder="What're we looking for ?"><input id="search_submit" value="search" type="submit">
+						</form>
+					</div>
+					<div class="login_btn login_btn_header">
+							<div class="icon_login"></div>
+							<a class="login" href="#">Авторизация</a>
+						</div>
+						<!-- модальное окно, авторизация -->
+						<div class="modal_login">
+							<div class="form_login">
+								<span class="close"></span>
+								<h5>Авторизация</h5>
+								<form action="">
+									<div class="logpass">
+										<input type="text" name="Login" placeholder="Login"
+ required />
+										<input type="password" placeholder="Password" name="password" required />
+										<a href="#">Забыли пароль ?</a>
+										<button>Войти</button>
+										<a href="#">Начать сотрудничество</a>
+									</div>
+								</form>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="title">
+		<div class="social">
+			<div class="container">
+				<div class="social_stroke">
+					<div class="address">Главная</div>
+					<div class="social_icon">
+						<a href="#" target="_blank">
+						<svg width="19" height="19" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="btc" fill="#ABB0BB">
+							<path d="M9.00696 3.25729e-06C4.03608 -0.00418034 0.00418685 4.02216 3.25729e-06 8.99304C-0.00418034 13.9639 4.02216 17.9958 8.99304 18C13.9633 17.9958 17.9923 13.9702 18 9C18 4.0319 13.9751 0.00418685 9.00696 3.25729e-06ZM8.99304 16.5023C4.8497 16.5023 1.49073 13.1433 1.49073 9C1.49073 4.85666 4.8497 1.49769 8.99304 1.49769C13.135 1.50188 16.4912 4.85807 16.4953 9C16.4953 13.1433 13.1364 16.5023 8.99304 16.5023Z"/>
+							<path d="M11.4241 8.56125C12.026 8.222 12.3513 7.54285 12.2391 6.86156C12.0998 5.80972 10.846 5.41263 9.85679 5.32906V3.7478H8.88155V5.31514H8.22677V3.7478H7.25153V5.31514H5.28711V6.32521H6.01854C6.34595 6.32521 6.50615 6.42274 6.50615 6.68743V11.0272C6.50615 11.3894 6.32503 11.5009 6.12998 11.5009H5.38463V12.5319H7.27938V14.134H8.26157V12.5319H8.91636V14.134H9.87071V12.5319H10.0797C12.0859 12.5319 12.7546 11.5497 12.7546 10.2122C12.7386 9.42364 12.1918 8.74516 11.4241 8.56125ZM8.22673 6.3879H8.92332C9.41094 6.3879 10.3722 6.4715 10.3722 7.26561C10.4057 7.78388 10.0302 8.23806 9.51542 8.30352H8.22673C8.22673 8.30352 8.22673 6.3879 8.22673 6.3879ZM9.30645 11.4034V11.3964H8.22673V9.3066H9.48062C9.77319 9.3066 10.8738 9.40412 10.8738 10.1843C10.8738 10.9645 10.3514 11.4034 9.30645 11.4034Z">
+							</g>
+						</svg>
+						<div class="dscr">Bitcoin</div>
+						</a>
+						<a href="https://t.me/s/daoflowerscom" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="telega" fill="#ABB0BB">
+							<path d="M0.241613 6.79823L3.66529 8.74796C3.79771 8.82262 3.95405 8.81728 4.08064 8.73263L7.12806 6.70824L5.28351 8.57598C5.18959 8.6713 5.13592 8.80729 5.13592 8.9506V13.5C5.13592 13.9799 5.67202 14.1819 5.92344 13.8006L7.4034 11.5522L11.0633 13.9339C11.32 14.1026 11.649 13.9333 11.7085 13.598L13.9912 0.599738C14.0594 0.209124 13.7193 -0.109499 13.4032 0.0358145L0.27778 5.88502C-0.0745629 6.04233 -0.0973136 6.60559 0.241613 6.79823V6.79823ZM12.9761 1.29964L10.97 12.7228L7.50199 10.4657C7.31298 10.3424 7.06972 10.3971 6.93555 10.5997L6.01094 12.0042V9.17524L10.9992 4.12526C11.3941 3.72598 10.9403 3.01607 10.4893 3.3187L3.84497 7.73277L1.51623 6.40695L12.9761 1.29964Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Telegram</div>
+						</a>
+						<a href="https://www.facebook.com/daoflowers" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="face" fill="#ABB0BB">
+							<path d="M2.63672 18H8.50781V11.6016H6.39844V9.49219H8.50781V6.85547C8.50781 5.40157 9.69063 4.21875 11.1445 4.21875H13.7812V6.32812H11.6719C11.0903 6.32812 10.6172 6.80122 10.6172 7.38281V9.49219H13.6861L13.3345 11.6016H10.6172V18H15.3633C16.8172 18 18 16.8172 18 15.3633V2.63672C18 1.18282 16.8172 0 15.3633 0H2.63672C1.18282 0 0 1.18282 0 2.63672V15.3633C0 16.8172 1.18282 18 2.63672 18ZM1.05469 2.63672C1.05469 1.7644 1.7644 1.05469 2.63672 1.05469H15.3633C16.2356 1.05469 16.9453 1.7644 16.9453 2.63672V15.3633C16.9453 16.2356 16.2356 16.9453 15.3633 16.9453H11.6719V12.6562H14.228L14.9311 8.4375H11.6719V7.38281H14.8359V3.16406H11.1445C9.10904 3.16406 7.45312 4.81998 7.45312 6.85547V8.4375H5.34375V12.6562H7.45312V16.9453H2.63672C1.7644 16.9453 1.05469 16.2356 1.05469 15.3633V2.63672Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Facebook</div>
+						</a>
+						<a href="https://www.instagram.com/daoflowers/" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="insta" fill="#ABB0BB">
+							<path d="M13.1276 0H4.87244C2.18573 0 0 2.18573 0 4.87244V13.1277C0 15.8143 2.18573 18 4.87244 18H13.1277C15.8143 18 18 15.8143 18 13.1277V4.87244C18 2.18573 15.8143 0 13.1276 0V0ZM16.9448 13.1277C16.9448 15.2324 15.2324 16.9448 13.1276 16.9448H4.87244C2.76759 16.9448 1.05524 15.2324 1.05524 13.1277V4.87244C1.05524 2.76759 2.76759 1.05524 4.87244 1.05524H13.1277C15.2324 1.05524 16.9448 2.76759 16.9448 4.87244V13.1277Z" />
+							<path d="M8.99986 4.07825C6.28596 4.07825 4.07812 6.28609 4.07812 8.99998C4.07812 11.7139 6.28596 13.9217 8.99986 13.9217C11.7138 13.9217 13.9216 11.7139 13.9216 8.99998C13.9216 6.28609 11.7138 4.07825 8.99986 4.07825V4.07825ZM8.99986 12.8665C6.86797 12.8665 5.13336 11.132 5.13336 8.99998C5.13336 6.86809 6.86797 5.13348 8.99986 5.13348C11.1319 5.13348 12.8664 6.86809 12.8664 8.99998C12.8664 11.132 11.1319 12.8665 8.99986 12.8665V12.8665Z"/>
+							<path d="M14.0398 2.33032C13.2378 2.33032 12.5854 2.98277 12.5854 3.78464C12.5854 4.58664 13.2378 5.23909 14.0398 5.23909C14.8418 5.23909 15.4942 4.58664 15.4942 3.78464C15.4942 2.98264 14.8418 2.33032 14.0398 2.33032ZM14.0398 4.18372C13.8198 4.18372 13.6407 4.00464 13.6407 3.78464C13.6407 3.5645 13.8198 3.38556 14.0398 3.38556C14.2599 3.38556 14.439 3.5645 14.439 3.78464C14.439 4.00464 14.2599 4.18372 14.0398 4.18372Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Instagram</div>
+						</a>
+						<a href="https://apps.apple.com/us/app/daoflowers/id1192822173" target="_blank">
+						<svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="appstore" fill="#ABB0BB">
+							<path d="M0.774094 6.61686C-0.777658 9.25755 0.208819 13.2649 1.9248 15.6948C2.78135 16.9096 3.64855 18 4.83633 18C4.85872 18 4.88117 17.9996 4.90416 17.9987C5.46221 17.9769 5.86548 17.8084 6.25539 17.6456C6.69314 17.4626 7.14588 17.2735 7.85601 17.2735C8.53159 17.2735 8.96272 17.4565 9.37965 17.6334C9.79057 17.8077 10.2138 17.9881 10.8392 17.9766C12.1771 17.9521 12.9986 16.7755 13.7234 15.7374C14.4796 14.6536 14.859 13.6013 14.987 13.1991L14.9922 13.1831C15.0166 13.1117 14.9822 13.0337 14.9123 13.0022C14.9104 13.0013 14.9033 12.9984 14.9013 12.9976C14.6657 12.9031 12.5989 12.004 12.5772 9.5534C12.5571 7.56242 14.1276 6.50809 14.4426 6.317L14.4573 6.30803C14.4914 6.28649 14.5152 6.25232 14.5233 6.21325C14.5313 6.17424 14.5229 6.13363 14.5 6.10082C13.416 4.54503 11.7544 4.31056 11.0854 4.28235C10.9883 4.27285 10.8881 4.26807 10.7875 4.26807C10.0018 4.26807 9.24912 4.55908 8.64443 4.7929C8.22702 4.95431 7.86648 5.09371 7.61781 5.09371C7.33839 5.09371 6.97581 4.9526 6.55593 4.78924C5.99444 4.5707 5.35804 4.32307 4.68432 4.32307C4.66825 4.32307 4.65242 4.32325 4.63683 4.32354C3.07034 4.34615 1.59014 5.22502 0.774094 6.61686Z" />
+							<path d="M11.087 0.000113396C10.1384 0.0380019 9.00047 0.610638 8.32031 1.3919C7.74228 2.04857 7.17761 3.14345 7.32637 4.24705C7.3357 4.3161 7.39299 4.36939 7.46383 4.37476C7.52786 4.37966 7.59321 4.38214 7.65833 4.3822C8.58589 4.3822 9.58651 3.87897 10.2699 3.06867C10.9891 2.21305 11.3527 1.11499 11.2427 0.131425C11.2341 0.0543495 11.1649 -0.00289644 11.087 0.000113396Z" />
+							 </g>
+						</svg>
+						<div class="dscr">AppStore</div>
+						</a>
+						<a href="https://play.google.com/store/apps/details?id=com.doflowers.android" target="_blank">
+						<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="android" fill="#ABB0BB">
+							<path d="M9.64287 18C10.2606 18 10.7993 17.4751 10.7993 16.8733V14.242H11.5715C12.0348 14.242 12.3436 13.941 12.3436 13.4897V5.97437H3.08496V13.4898C3.08496 13.9411 3.39383 14.2421 3.85713 14.2421H4.62936V16.8734C4.62936 17.4752 5.16794 18 5.78579 18C6.40347 18 6.9421 17.4752 6.9421 16.8734V14.2421H8.4865V16.8734C8.48644 17.4751 9.02514 18 9.64287 18Z" />
+							<path d="M14.2722 13.4898C14.8899 13.4898 15.4285 12.965 15.4285 12.3631V7.10057C15.4285 6.50191 14.8899 5.97437 14.2722 5.97437C13.6544 5.97437 13.1157 6.50191 13.1157 7.10057V12.3631C13.1157 12.9649 13.6543 13.4898 14.2722 13.4898Z" />
+							<path d="M1.15631 13.4898C1.77411 13.4898 2.31274 12.965 2.31274 12.3631V7.10057C2.31274 6.50191 1.77417 5.97437 1.15631 5.97437C0.538576 5.97437 0 6.50191 0 7.10057V12.3631C0 12.9649 0.538576 13.4898 1.15631 13.4898Z" />
+							<path d="M11.417 0.113521C11.2626 -0.0378404 11.0328 -0.0378404 10.8784 0.113521L9.84274 1.11917L9.79497 1.16566C9.18087 0.866064 8.49236 0.716444 7.72562 0.715003C7.72185 0.715003 7.71816 0.714883 7.7144 0.714883H7.71427C7.71039 0.714883 7.70681 0.715003 7.70293 0.715003C6.93625 0.716444 6.24774 0.866064 5.6337 1.16566L5.5858 1.11917L4.5502 0.113521C4.39571 -0.0378404 4.166 -0.0378404 4.01162 0.113521C3.85713 0.264042 3.85713 0.48742 4.01162 0.63782L5.01344 1.61404C4.69064 1.82403 4.39792 2.08098 4.14337 2.37487C3.53396 3.07864 3.14525 3.99456 3.0918 4.98694C3.09131 4.99727 3.09026 5.00748 3.08977 5.01781C3.0865 5.08538 3.08496 5.15332 3.08496 5.22149H12.3436C12.3436 5.15332 12.342 5.08538 12.3388 5.01781C12.3383 5.00748 12.3373 4.99727 12.3367 4.98694C12.2834 3.99456 11.8945 3.07858 11.2851 2.37493C11.0307 2.08104 10.7378 1.82409 10.415 1.6141L11.417 0.63788C11.5715 0.48742 11.5715 0.264042 11.417 0.113521ZM5.78431 3.90795C5.46484 3.90795 5.20585 3.65562 5.20585 3.34437C5.20585 3.03312 5.46484 2.78079 5.78431 2.78079C6.10378 2.78079 6.36278 3.03312 6.36278 3.34437C6.36278 3.65562 6.10378 3.90795 5.78431 3.90795ZM9.64429 3.90795C9.32482 3.90795 9.06583 3.65562 9.06583 3.34437C9.06583 3.03312 9.32482 2.78079 9.64429 2.78079C9.96376 2.78079 10.2228 3.03312 10.2228 3.34437C10.2228 3.65562 9.96376 3.90795 9.64429 3.90795Z"/>
+							</g>
+						</svg>
+						<div class="dscr gp">Google Play</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="title_main">
+				<div class="title_dao">
+					<h1>Оптовые поставки цветов <br> из Эквадора, Колумбии и Кении</h1>
+				</div>
+				<div class="advice">
+					<h4>Полезные советы</h4>
+					<p>
+						<a href="#">Какова минимальная партия цветов, с которой можно начать работу? Из каких типов цветов можно сформировать минимальный заказ?</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- блок плиток с инфо -->
+	<section id="info">
+		<div class="container">
+			<div class="info_items">
+				<div class="item">
+					<div class="icon icon_offers"></div>
+					<h3>Наши услуги</h3>
+					<p>pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada</p>
+				</div>
+				<div class="item">
+					<div class="icon icon_beginner"></div>
+					<h3>Как начать работу? Принципы работы</h3>
+					<p>egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris</p>
+				</div>
+				<div class="item">
+					<div class="icon icon_faq"></div>
+					<h3>FAQ</h3>
+					<p>convallis a cras semper auctor neque vitae tempus quam pellentesque nec nam</p>
+				</div>
+				<div class="item">
+					<div class="icon icon_flower"></div>
+					<h3>Каталог цветов</h3>
+					<p>egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris</p>
+				</div>
+				<div class="item">
+					<div class="icon icon_plant"></div>
+					<h3>Каталог плантаций</h3>
+					<p>egestas sed sed risus pretium quam vulputate dignissim suspendisse in est ante in nibh mauris</p>
+				</div>
+				<div class="item">
+					<div class="icon icon_services"></div>
+					<h3>Сервисы</h3>
+					<p>pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- блок карусели с фермами -->
+	<section id="farms">
+		<div class="farms_line">
+			<div class="container">
+				<img src="img/plantations.png" alt="plantations">
+			</div>
+		</div>
+		<div class="container">
+			<div class="farms_sl">
+				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/agromonte(903).jpg" alt="agromonte">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/bless flowers(1075).jpg" alt="bless flowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/Aposentos(127).gif" alt="Aposentos">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/alegria(1136).jpg" alt="alegria">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/blooming acres(497).jpg" alt="blooming acres">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/dayana flowers(1079).jpg" alt="dayana flowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/ceres farms(236).jpg" alt="ceres farms">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/floraroma(395).jpg" alt="floraroma">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/ecoroses(4).jpg" alt="ecoroses">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/eden roses(342).jpg" alt="eden roses">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/eternal flower(487).jpg" alt="eternal flower">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/funza(38).jpg" alt="funza">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/everbloom roses(669).jpg" alt="everbloom roses">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/excellence flowers(916).jpg" alt="excellence flowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/flodecol(1402).jpg" alt="flodecol">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/flores de la hacienda(1216).jpg" alt="flores de la hacienda">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/famosa corporation(1016).jpg" alt="famosa corporation">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/rose connection(214).jpg" alt="rose connection">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/zarina(548).jpg" alt="zarina">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/latinflor(526).jpg" alt="latinflor">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/matina flowers(259).jpg" alt="matina flowers">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/maringardens(767).jpg" alt="maringardens">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/natbeauty(1027).jpg" alt="natbeauty">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/quimbiamba m flowers(793).jpg" alt="quimbiamba m flowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/santa clara gardens(593).jpg" alt="santa clara gardens">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/serrezuela(337).jpg" alt="serrezuela">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/florigene col(908).jpg" alt="florigene col">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/jardines el angel(386).jpg" alt="jardines el angel">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/jardinor(513).jpg" alt="jardinor">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/redlands roses(550).jpg" alt="redlands roses">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/kamyla flowers(1139).jpg" alt="kamyla flowers">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/santa fe(445).jpg" alt="santa fe">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/violeta flowers(439).jpg" alt="violeta flowers">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/volcano gardens(830).jpg" alt="volcano gardens">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/welyflor(61).jpg" alt="welyflor">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/yasuniroses(755).jpg" alt="yasuniroses">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/la union flores(1072).jpg" alt="la union flores">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/latina farms(883).jpg" alt="latina farms">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/lifeflowers(759).jpg" alt="lifeflowers">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/milonga(372).jpg" alt="milonga">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/muradian roses(1010).jpg" alt="muradian roses">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/susan flowers(1067).jpg" alt="susan flowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/picacho(801).jpg" alt="picacho">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/solflowers(783).jpg" alt="solflowers">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					<a href="#">
+  						<img src="img/farms_carusel/rosas cotopaxi(82).jpg" alt="rosas cotopaxi">
+  					</a>
+  					<a href="#">
+  						<img src="img/farms_carusel/terra pacific(618).jpg" alt="terra pacific">
+  					</a>
+  				</div>
+  				<div class="sl_item">
+  					
+  					<a href="#">
+  						<img src="img/farms_carusel/valdesol(59).jpg" alt="valdesol">
+  					</a>
+  				</div>
+			</div>
+		</div>
+		<div class="farms_line">
+	</section>
+	<!-- блок новостей -->
+	<section id="news">
+		<div class="container">
+			<div class="newsbox">
+				<div class="news_title">
+					<h2>Новости</h2>
+					<p class="dscr">
+						<a href="#">Новости</a> /
+						<a href="#">Обновления в системе</a> /
+						<a href="#">Статьи</a> / 
+						<a href="#">FAQ</a> / 
+						<a href="#">Цветочные рынки мира</a>
+					</p>
+					<p class="link_news"><a href="#">Больше новостей...</a></p>
+				</div>
+				<div class="news_items">
+					<div class="item">
+						<h4><a href="#">Онлайн-площадка для закупки цветов в мобильном приложении Daoflowers на Android и IOS.<span>01-07-2020</span></a></h4>
+						<p class="article">
+							<a href="#">
+								Обновления в системе
+							</a>
+						</p>
+						<p>Рады сообщить нашим покупателям о том, что компания Daoflowers выпустила важное обновление мобильных приложений Android и IOS: Теперь закупка цветов можно осуществить всего в несколько кликов с вашего смартфона.</p>
+					</div>
+					<div class="item">
+						<h4><a href="#">Africa stock – небольшой фоторепортаж процесса работы<span>23-06-2020</span></a></h4>
+						<p class="article">
+							<a href="#">
+								Новости
+							</a>
+						</p>
+						<p>Хотим напомнить нашим покупателям, что на сайте Daoflowers регулярно размещаются стоки африканской розы (Кения, Танзания, Уганда, Замбия).</p>
+					</div>
+					<div class="item">
+						<h4><a href="#">Специальные предложения на сайте Daoflowers – Africa stock<span>23-06-2020</span></a></h4>
+						<p class="article">
+							<a href="#">
+								Новости
+							</a>
+						</p>
+						<p>Поставщик цветов Daoflowers рад предложить вашему вниманию расширение нашего ассортимента.</p>
+					</div>
+					<p class="link_news_adaptiv"><a href="#">Больше новостей...</a></p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="footer_flex">
+				<div class="contact">
+					 <div class="logo_white">
+					 	<img src="img/logo_footer.png" alt="logo">
+					 </div>
+					 <div class="social_footer">
+					 	<a href="#" target="_blank">
+						<svg width="19" height="19" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="btc_f" fill="#fff">
+							<path d="M9.00696 3.25729e-06C4.03608 -0.00418034 0.00418685 4.02216 3.25729e-06 8.99304C-0.00418034 13.9639 4.02216 17.9958 8.99304 18C13.9633 17.9958 17.9923 13.9702 18 9C18 4.0319 13.9751 0.00418685 9.00696 3.25729e-06ZM8.99304 16.5023C4.8497 16.5023 1.49073 13.1433 1.49073 9C1.49073 4.85666 4.8497 1.49769 8.99304 1.49769C13.135 1.50188 16.4912 4.85807 16.4953 9C16.4953 13.1433 13.1364 16.5023 8.99304 16.5023Z"/>
+							<path d="M11.4241 8.56125C12.026 8.222 12.3513 7.54285 12.2391 6.86156C12.0998 5.80972 10.846 5.41263 9.85679 5.32906V3.7478H8.88155V5.31514H8.22677V3.7478H7.25153V5.31514H5.28711V6.32521H6.01854C6.34595 6.32521 6.50615 6.42274 6.50615 6.68743V11.0272C6.50615 11.3894 6.32503 11.5009 6.12998 11.5009H5.38463V12.5319H7.27938V14.134H8.26157V12.5319H8.91636V14.134H9.87071V12.5319H10.0797C12.0859 12.5319 12.7546 11.5497 12.7546 10.2122C12.7386 9.42364 12.1918 8.74516 11.4241 8.56125ZM8.22673 6.3879H8.92332C9.41094 6.3879 10.3722 6.4715 10.3722 7.26561C10.4057 7.78388 10.0302 8.23806 9.51542 8.30352H8.22673C8.22673 8.30352 8.22673 6.3879 8.22673 6.3879ZM9.30645 11.4034V11.3964H8.22673V9.3066H9.48062C9.77319 9.3066 10.8738 9.40412 10.8738 10.1843C10.8738 10.9645 10.3514 11.4034 9.30645 11.4034Z">
+							</g>
+						</svg>
+						<div class="dscr">Bitcoin</div>
+						</a>
+						<a href="https://t.me/s/daoflowerscom" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="telega_f" fill="#fff">
+							<path d="M0.241613 6.79823L3.66529 8.74796C3.79771 8.82262 3.95405 8.81728 4.08064 8.73263L7.12806 6.70824L5.28351 8.57598C5.18959 8.6713 5.13592 8.80729 5.13592 8.9506V13.5C5.13592 13.9799 5.67202 14.1819 5.92344 13.8006L7.4034 11.5522L11.0633 13.9339C11.32 14.1026 11.649 13.9333 11.7085 13.598L13.9912 0.599738C14.0594 0.209124 13.7193 -0.109499 13.4032 0.0358145L0.27778 5.88502C-0.0745629 6.04233 -0.0973136 6.60559 0.241613 6.79823V6.79823ZM12.9761 1.29964L10.97 12.7228L7.50199 10.4657C7.31298 10.3424 7.06972 10.3971 6.93555 10.5997L6.01094 12.0042V9.17524L10.9992 4.12526C11.3941 3.72598 10.9403 3.01607 10.4893 3.3187L3.84497 7.73277L1.51623 6.40695L12.9761 1.29964Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Telegram</div>
+						</a>
+						<a href="https://www.facebook.com/daoflowers" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="face_f" fill="#fff">
+							<path d="M2.63672 18H8.50781V11.6016H6.39844V9.49219H8.50781V6.85547C8.50781 5.40157 9.69063 4.21875 11.1445 4.21875H13.7812V6.32812H11.6719C11.0903 6.32812 10.6172 6.80122 10.6172 7.38281V9.49219H13.6861L13.3345 11.6016H10.6172V18H15.3633C16.8172 18 18 16.8172 18 15.3633V2.63672C18 1.18282 16.8172 0 15.3633 0H2.63672C1.18282 0 0 1.18282 0 2.63672V15.3633C0 16.8172 1.18282 18 2.63672 18ZM1.05469 2.63672C1.05469 1.7644 1.7644 1.05469 2.63672 1.05469H15.3633C16.2356 1.05469 16.9453 1.7644 16.9453 2.63672V15.3633C16.9453 16.2356 16.2356 16.9453 15.3633 16.9453H11.6719V12.6562H14.228L14.9311 8.4375H11.6719V7.38281H14.8359V3.16406H11.1445C9.10904 3.16406 7.45312 4.81998 7.45312 6.85547V8.4375H5.34375V12.6562H7.45312V16.9453H2.63672C1.7644 16.9453 1.05469 16.2356 1.05469 15.3633V2.63672Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Facebook</div>
+						</a>
+						<a href="https://www.instagram.com/daoflowers/" target="_blank">
+						<svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="insta_f" fill="#fff">
+							<path d="M13.1276 0H4.87244C2.18573 0 0 2.18573 0 4.87244V13.1277C0 15.8143 2.18573 18 4.87244 18H13.1277C15.8143 18 18 15.8143 18 13.1277V4.87244C18 2.18573 15.8143 0 13.1276 0V0ZM16.9448 13.1277C16.9448 15.2324 15.2324 16.9448 13.1276 16.9448H4.87244C2.76759 16.9448 1.05524 15.2324 1.05524 13.1277V4.87244C1.05524 2.76759 2.76759 1.05524 4.87244 1.05524H13.1277C15.2324 1.05524 16.9448 2.76759 16.9448 4.87244V13.1277Z" />
+							<path d="M8.99986 4.07825C6.28596 4.07825 4.07812 6.28609 4.07812 8.99998C4.07812 11.7139 6.28596 13.9217 8.99986 13.9217C11.7138 13.9217 13.9216 11.7139 13.9216 8.99998C13.9216 6.28609 11.7138 4.07825 8.99986 4.07825V4.07825ZM8.99986 12.8665C6.86797 12.8665 5.13336 11.132 5.13336 8.99998C5.13336 6.86809 6.86797 5.13348 8.99986 5.13348C11.1319 5.13348 12.8664 6.86809 12.8664 8.99998C12.8664 11.132 11.1319 12.8665 8.99986 12.8665V12.8665Z"/>
+							<path d="M14.0398 2.33032C13.2378 2.33032 12.5854 2.98277 12.5854 3.78464C12.5854 4.58664 13.2378 5.23909 14.0398 5.23909C14.8418 5.23909 15.4942 4.58664 15.4942 3.78464C15.4942 2.98264 14.8418 2.33032 14.0398 2.33032ZM14.0398 4.18372C13.8198 4.18372 13.6407 4.00464 13.6407 3.78464C13.6407 3.5645 13.8198 3.38556 14.0398 3.38556C14.2599 3.38556 14.439 3.5645 14.439 3.78464C14.439 4.00464 14.2599 4.18372 14.0398 4.18372Z"/>
+							</g>
+						</svg>
+						<div class="dscr">Instagram</div>
+						</a>
+						<a href="https://apps.apple.com/us/app/daoflowers/id1192822173" target="_blank" >
+						<svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="appstore_f" fill="#fff">
+							<path d="M0.774094 6.61686C-0.777658 9.25755 0.208819 13.2649 1.9248 15.6948C2.78135 16.9096 3.64855 18 4.83633 18C4.85872 18 4.88117 17.9996 4.90416 17.9987C5.46221 17.9769 5.86548 17.8084 6.25539 17.6456C6.69314 17.4626 7.14588 17.2735 7.85601 17.2735C8.53159 17.2735 8.96272 17.4565 9.37965 17.6334C9.79057 17.8077 10.2138 17.9881 10.8392 17.9766C12.1771 17.9521 12.9986 16.7755 13.7234 15.7374C14.4796 14.6536 14.859 13.6013 14.987 13.1991L14.9922 13.1831C15.0166 13.1117 14.9822 13.0337 14.9123 13.0022C14.9104 13.0013 14.9033 12.9984 14.9013 12.9976C14.6657 12.9031 12.5989 12.004 12.5772 9.5534C12.5571 7.56242 14.1276 6.50809 14.4426 6.317L14.4573 6.30803C14.4914 6.28649 14.5152 6.25232 14.5233 6.21325C14.5313 6.17424 14.5229 6.13363 14.5 6.10082C13.416 4.54503 11.7544 4.31056 11.0854 4.28235C10.9883 4.27285 10.8881 4.26807 10.7875 4.26807C10.0018 4.26807 9.24912 4.55908 8.64443 4.7929C8.22702 4.95431 7.86648 5.09371 7.61781 5.09371C7.33839 5.09371 6.97581 4.9526 6.55593 4.78924C5.99444 4.5707 5.35804 4.32307 4.68432 4.32307C4.66825 4.32307 4.65242 4.32325 4.63683 4.32354C3.07034 4.34615 1.59014 5.22502 0.774094 6.61686Z" />
+							<path d="M11.087 0.000113396C10.1384 0.0380019 9.00047 0.610638 8.32031 1.3919C7.74228 2.04857 7.17761 3.14345 7.32637 4.24705C7.3357 4.3161 7.39299 4.36939 7.46383 4.37476C7.52786 4.37966 7.59321 4.38214 7.65833 4.3822C8.58589 4.3822 9.58651 3.87897 10.2699 3.06867C10.9891 2.21305 11.3527 1.11499 11.2427 0.131425C11.2341 0.0543495 11.1649 -0.00289644 11.087 0.000113396Z" />
+							 </g>
+						</svg>
+						<div class="dscr">AppStore</div>
+						</a>
+						<a href="https://play.google.com/store/apps/details?id=com.doflowers.android" target="_blank">
+						<svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g class="android_f" fill="#fff">
+							<path d="M9.64287 18C10.2606 18 10.7993 17.4751 10.7993 16.8733V14.242H11.5715C12.0348 14.242 12.3436 13.941 12.3436 13.4897V5.97437H3.08496V13.4898C3.08496 13.9411 3.39383 14.2421 3.85713 14.2421H4.62936V16.8734C4.62936 17.4752 5.16794 18 5.78579 18C6.40347 18 6.9421 17.4752 6.9421 16.8734V14.2421H8.4865V16.8734C8.48644 17.4751 9.02514 18 9.64287 18Z" />
+							<path d="M14.2722 13.4898C14.8899 13.4898 15.4285 12.965 15.4285 12.3631V7.10057C15.4285 6.50191 14.8899 5.97437 14.2722 5.97437C13.6544 5.97437 13.1157 6.50191 13.1157 7.10057V12.3631C13.1157 12.9649 13.6543 13.4898 14.2722 13.4898Z" />
+							<path d="M1.15631 13.4898C1.77411 13.4898 2.31274 12.965 2.31274 12.3631V7.10057C2.31274 6.50191 1.77417 5.97437 1.15631 5.97437C0.538576 5.97437 0 6.50191 0 7.10057V12.3631C0 12.9649 0.538576 13.4898 1.15631 13.4898Z" />
+							<path d="M11.417 0.113521C11.2626 -0.0378404 11.0328 -0.0378404 10.8784 0.113521L9.84274 1.11917L9.79497 1.16566C9.18087 0.866064 8.49236 0.716444 7.72562 0.715003C7.72185 0.715003 7.71816 0.714883 7.7144 0.714883H7.71427C7.71039 0.714883 7.70681 0.715003 7.70293 0.715003C6.93625 0.716444 6.24774 0.866064 5.6337 1.16566L5.5858 1.11917L4.5502 0.113521C4.39571 -0.0378404 4.166 -0.0378404 4.01162 0.113521C3.85713 0.264042 3.85713 0.48742 4.01162 0.63782L5.01344 1.61404C4.69064 1.82403 4.39792 2.08098 4.14337 2.37487C3.53396 3.07864 3.14525 3.99456 3.0918 4.98694C3.09131 4.99727 3.09026 5.00748 3.08977 5.01781C3.0865 5.08538 3.08496 5.15332 3.08496 5.22149H12.3436C12.3436 5.15332 12.342 5.08538 12.3388 5.01781C12.3383 5.00748 12.3373 4.99727 12.3367 4.98694C12.2834 3.99456 11.8945 3.07858 11.2851 2.37493C11.0307 2.08104 10.7378 1.82409 10.415 1.6141L11.417 0.63788C11.5715 0.48742 11.5715 0.264042 11.417 0.113521ZM5.78431 3.90795C5.46484 3.90795 5.20585 3.65562 5.20585 3.34437C5.20585 3.03312 5.46484 2.78079 5.78431 2.78079C6.10378 2.78079 6.36278 3.03312 6.36278 3.34437C6.36278 3.65562 6.10378 3.90795 5.78431 3.90795ZM9.64429 3.90795C9.32482 3.90795 9.06583 3.65562 9.06583 3.34437C9.06583 3.03312 9.32482 2.78079 9.64429 2.78079C9.96376 2.78079 10.2228 3.03312 10.2228 3.34437C10.2228 3.65562 9.96376 3.90795 9.64429 3.90795Z"/>
+							</g>
+						</svg>
+						<div class="dscr gp">Google Play</div>
+						</a>
+					</div>
+					<div class="contact_info">
+						<div class="mail">
+							<div class="icon_cf"></div>
+							<a href="mailto:dao@daoflowers.com">dao@daoflowers.com</a> 
+						</div>
+						<div class="call">
+							<div class="call_item">
+								<div class="skype">
+									<div class="icon_cf"></div>
+									<a href="skype:dao-dao?chat">
+										dao-dao
+									</a>
+								</div>
+								<div class="skype">
+									<div class="icon_cf"></div>
+									<a href="skype:daoflowers_boris?chat">
+										daoflowers_boris
+									</a>
+								</div>
+							</div>
+							<div class="call_item">
+								<div class="skype">
+									<div class="icon_cf viber"></div>
+									<a href="viber://chat?number=+31657713385">
+										+31657713385
+									</a>
+								</div>
+								<div class="skype">
+									<div class="icon_cf whatapp"></div>
+									<a href="whatsapp://send?phone=+31657713385">
+										+31657713385
+									</a>
+								</div>
+							</div>
+							<div class="call_item">
+								<div class="skype">
+									<div class="icon_cf viber"></div>
+									<a href="viber://chat?number=+31657713385">
+										+31657713385
+									</a>
+								</div>
+								<div class="skype">
+									<div class="icon_cf telega"></div>
+									<a href="https://t.me/daoflowers">
+										daoflowers
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clock">
+					<div class="clock_items">
+						<div class="item">
+							<p class="my_loc">My location</p>
+							<p class="city_clock my_loc" data-timezone="Europe/Kiev">00:00:00</p>
+						</div>
+						<div class="item">
+							<p class="city">Quito</p>
+							<p class="city_clock" data-timezone="America/Bogota">00:00:00</p>
+						</div>
+						<div class="item">
+							<p class="city">Bogota</p>
+							<p class="city_clock" data-timezone="America/Bogota">00:00:00</p>
+						</div>
+						<div class="item">
+							<p class="city">Nairobi</p>
+							<p class="city_clock" data-timezone="Africa/Nairobi">00:00:00</p>
+						</div>
+						<div class="item">
+							<p class="city">Amsterdam</p>
+							<p class="city_clock" data-timezone="Europe/Amsterdam">00:00:00</p>
+						</div>
+					</div>
+					<div class="policy">
+						<ul>
+							<li><a href="#">Terms and Conditions</a></li>
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Наши услуги</a></li>
+							<li><a href="#">Принципы работы</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+<div class="back_To_Top">
+	<img src="img/icon/upToTop.png" alt="top">
+	<div class="dscr">Вверх</div>
+</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="JS/script.js"></script>
+</html>

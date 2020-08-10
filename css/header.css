@@ -1,0 +1,556 @@
+header {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 120px;
+	box-shadow: 0px 4px 8px #F2F3F6;
+}
+
+header .header_contact {
+	height: 30px;
+	background: #F2F3F6;
+	display: flex;
+	align-items: center;
+}
+
+/* строка контактов, языка и авторизации */
+
+header .header_contact .header_contact_items {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header .header_contact .header_contact_items .item .icon_viber {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 37px;
+    height: 16px;
+    background-position: -1px -2px;
+	display: inline-block;
+}
+
+header .header_contact .header_contact_items .item .icon_skype {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -37px -2px;
+	display: inline-block;
+}
+
+header .header_contact .header_contact_items .item .icon_mail {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -57px -1px;
+	display: inline-block;
+}
+
+header .header_contact .header_contact_items .item .icon_begin {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -202px -2px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+header .header_contact .header_contact_items .item a {
+	margin: 0 15px 0 0;
+}
+
+header .header_contact .header_contact_items .item a {
+	position: relative;
+	top: -2.2px;
+}
+
+header .header_contact .header_contact_items .item .lang {
+	display: inline-block;
+	margin-right: 40px;
+	position: relative;
+	top: -2px;
+}
+
+header .header_contact .header_contact_items .item .lang .icon_lang {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 19px;
+    height: 16px;
+    background-position: -153px -2px;
+	display: inline-block;
+	margin-left: 30px;
+}
+
+header .header_contact .header_contact_items .item .lang a {
+	color: #2F80ED;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+header .header_contact .header_contact_items .item .lang a .lang_ico {
+	margin-bottom: -4px;
+}
+
+header .header_contact .header_contact_items .item .lang a img {
+	margin-left: 8px;
+}
+
+header .header_contact .header_contact_items .item .lang ul {
+	display: none;
+	list-style: none;
+	background: #F2F3F6;
+	position: absolute;
+    top: 22px;
+    left: 1px;
+}
+
+header .header_contact .header_contact_items .item .lang ul li {
+	list-style: none;
+	width: 75px;
+	height: 25px;
+	overflow: hidden;
+}
+
+header .header_contact .header_contact_items .item .lang ul li:hover > a {
+	background: #2F80ED;
+	color: #fff;
+}
+
+header .header_contact .header_contact_items .item .lang ul li a {
+	padding-bottom: 5px;
+	margin-bottom: -1px;
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 25px;
+}
+
+header .header_contact .header_contact_items .item .lang ul li a img {
+	position: absolute;
+	top: 5px;
+	left: 0;
+}
+
+header .header_contact .header_contact_items .item .lang ul li a span {
+	margin-left: 29px;
+	position: absolute;
+    top: 5px;
+}
+
+header .header_contact .header_contact_items .item .lang:hover > ul {
+	display: block;
+}
+
+.login_btn {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.login_btn_header {
+	display: none;
+}
+
+/* модальное окно, авторизация */
+
+.modal_login {
+	position: fixed;
+	z-index: 200;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background: rgba(0,0,0,0.5);
+	display: none;
+}
+
+.modal_login .form_login {
+	background-color: #FAFAFA;
+	margin: 7% auto;
+	width: 330px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.modal_login .form_login h5 {
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.modal_login .form_login .close {
+	color: #333333;
+    float: right;
+    cursor: pointer;
+    width: 24px;
+    height: 35px;
+    background: url(../img/icon/contact_sprite.png);
+    background-repeat: no-repeat;
+    background-position: -178px 8px;
+}
+
+.modal_login .form_login form {
+	margin: 0 auto;
+	width: 270px;
+	text-align: center;
+}
+
+.modal_login .form_login form input {
+	margin-bottom: 20px;
+	width: 100%;
+	outline: none;
+	padding: 12px 15px;
+	border: 1px solid #ABB0BB;
+	border-radius: 5px;
+	font-size: 14px;
+}
+
+.modal_login .form_login form button {
+	display: block;
+	width: 100%;
+	background: #333A4A;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	outline: none;
+	margin: 15px 0;
+	padding: 12px;
+	cursor: pointer;
+}
+
+.modal_login .form_login form a {
+	margin-right: 0;
+}
+
+/* конец -> модальное окно, авторизация */
+
+header .icon_login {
+	background: url(../img/icon/contact_sprite.png);
+	background-repeat: no-repeat;
+	width: 23px;
+    height: 21px;
+    background-position: -88px 2px;
+	display: inline-block;
+	margin-right: -15px;
+}
+
+header .login {
+	position: relative;
+	top: -4px;
+	right: -15px;
+}
+
+header .login:hover {
+	color: #2F80ED;
+}
+
+/* строка лого и меню */
+
+header .header_menu {
+	display: flex;
+	padding: 24px 0 16px 0;
+	background: #fff;
+}
+
+header .header_menu .header_menu_items {
+	display: flex;
+	justify-content: space-between;
+}
+
+header .header_menu .header_menu_items .logo img {
+	width: 210px;
+}
+
+header .header_menu .header_menu_items .menu {
+	display: inline-block;
+}
+
+header .header_menu .header_menu_items .menu ul li {
+	display: inline-block;
+	list-style: none;
+	margin-left: 25px;
+	padding-top: 15px;
+}
+
+header .header_menu .header_menu_items .menu ul li a {
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #333333;
+}
+
+header .header_menu .header_menu_items .menu ul li a:hover {
+	color: #FF0000;
+	transition: .3s;
+}
+
+/* бургер меню */
+
+header .header_menu .header_menu_items .bgm {
+	position: absolute;
+	width: 45px;
+	height: 40px;
+	display: none;
+}
+
+header .header_menu .header_menu_items .bgm .bgm_btn {
+	position: absolute;
+	z-index: 160;
+	top: 24px;
+	left: 20px;
+	transition: .4s;
+}
+
+.bgm .bgm_lines,
+.bgm .bgm_lines::after,
+.bgm .bgm_lines::before {
+	position: absolute;
+	width: 40px;
+	height: 6px;
+	background: linear-gradient(90deg, #2F80ED 0%, rgba(47, 128, 237, 0.5) 100%);
+	border-radius: 10px;
+} 
+
+.bgm .bgm_lines {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.bgm .bgm_lines::before {
+	content: '';
+	top: -12px;
+}
+
+.bgm .bgm_lines::after {
+	content: '';
+	top: 12px;
+}
+
+.bgm_active .bgm_lines {
+	background: transparent;
+}
+
+.bgm_active .bgm_lines::before {
+	top: 0;
+	transform: rotate(45deg);
+	background: #2F80ED;
+	transition: .2s;
+}
+
+.bgm_active .bgm_lines::after {
+	top: 0;
+	transform: rotate(-45deg);
+	background: #2F80ED;
+	transition: .2s;
+}
+
+.bgm .bgm_nav {
+	padding-top: 100px;
+	padding-left: 30px;
+	width: 200px;
+	position: fixed;
+	z-index: 150;
+	display: flex;
+	flex-flow: column;
+	height: 100%;
+	background: #333A4A;
+	overflow-y: auto;
+	left: -100%;
+	top: 0;
+	transition: .4s;
+}
+
+.bgm_active .bgm_nav {
+	left: 0;
+}
+
+.bgm_active .bgm_nav a {
+	padding-top: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	display: block;
+}
+
+.bgm_overlay {
+	position: fixed;
+	z-index: 140;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100vw;
+	
+	display: none;
+}
+
+.bgm_active .bgm_overlay {
+	display: block;
+}
+
+.bgm_active .bgm_nav .bgm_lang {
+	margin-top: 20px;
+}
+
+.bgm_active .bgm_nav .bgm_lang img {
+	margin: 0 5px -4px 0;
+}
+
+
+/* Поиск */
+
+header .header_menu .header_menu_items .header_search {
+	position: relative;
+	top: -3px;
+	height: 60px;
+	float: right;
+	padding: 0;
+	padding-left: 18px;
+	margin-left: -180px;
+}
+
+header .header_menu .header_menu_items .header_search input[type="text"] {
+	height: 30px;
+	font-size: 14px;
+	display: inline-block;
+	font-weight: 100;
+	border: none;
+	outline: none;
+	color: #555;
+	padding: 3px;
+	padding-left: 18px;
+	width: 18px;
+	position: absolute;
+	top: 12px;
+	right: 0;
+	background: none;
+	z-index: 1001;
+	transition: width .8s cubic-bezier(0.100, 0.900, 0.000, 1.000);
+	cursor: pointer;
+
+}
+
+header .header_menu .header_menu_items .header_search input[type="text"]:focus:hover {
+	border-bottom: 1px solid #90A0B7;
+	outline: none;
+	background: #fff;
+}
+
+header .header_menu .header_menu_items .header_search input[type="text"]:focus {
+	width: 800px;
+	z-index: 200;
+	border-bottom: 1px solid #BBB;
+	cursor: text;
+	outline: none;
+	background: #fff;
+}
+
+header .header_menu .header_menu_items .header_search input[type="submit"] {
+	height: 18px;
+	width: 18px;
+	display: inline-block;
+	float: right;
+	background: url(../img/icon/search.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-indent: -10000px;
+	border: none;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	z-index: 1000;
+	cursor: pointer;
+	outline: none;
+}
+
+
+/* адаптация */
+
+@media only screen and (max-width: 1250px) {
+	header .header_menu .header_menu_items .logo {
+		margin-left: 75px;
+	}
+
+	header .header_menu .header_menu_items .menu {
+		display: none;
+	}
+
+	header .header_menu .header_menu_items .bgm {
+		display: block;
+	}
+	header .header_menu .header_menu_items .header_search input[type="text"]:focus { 
+		width: 300px;
+	}
+
+}
+
+@media only screen and (max-width: 1024px) {
+	header .header_contact .header_contact_items .item .icon_begin {
+		margin-left: -12px;
+	}
+
+	header .header_contact .header_contact_items .item .lang  {
+		margin-right: 0;
+	}
+}
+
+@media only screen and (max-width: 960px) {
+	header {
+		height: auto;
+	}
+
+	header .header_contact  {
+		display: none;
+	}
+
+	header .login_btn_header {
+		display: inline-block;
+		margin-top: 12px;
+		width: 100px;
+	}
+
+	header .header_menu .header_menu_items .header_search {
+		right: -160px;
+		margin-left: 0;
+		float: none;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	header .header_menu .header_menu_items .logo img {
+    	width: 150px;
+    	margin-top: 7px;
+	}
+
+	header .header_menu .header_menu_items .header_search input[type="text"]:focus { 
+		width: 250px;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	header .header_menu .header_menu_items .header_search {
+    	display: none;
+	}
+
+	.modal_login .form_login {
+		margin: 25% auto;
+	}
+	header .header_menu .header_menu_items .logo img {
+    	width: 130px;
+    	margin-top: 10px;
+    }
+
+    header .header_menu .header_menu_items .logo {
+    	margin-left: 55px;
+	}
+
+	header .login_btn_header {
+    	margin-top: 10px;
+    }
+}
